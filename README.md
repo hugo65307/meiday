@@ -1,29 +1,19 @@
 # meiday
 
-## Project setup
+## Instalação do NODE
+[Clique aqui para fazer o Download](https://nodejs.org/dist/v10.15.3/node-v10.15.3-x64.msi)
+
+## Instalação do Vue - Command Line Interface (CLI)
+```
+npm install @vue/cli -g
+```
+
+## Baixar Dependências
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Executar Projeto
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
