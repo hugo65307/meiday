@@ -1,8 +1,8 @@
 <template>
   <v-layout align-center justify-center row fill-height>
     <v-flex xs12 sm3 class="ma-2">
-      <v-card color="deep-orange accent-3" >
-        <v-toolbar color="deep-orange darken-1">
+      <v-card color="" >
+        <v-toolbar color="deep-orange accent-3">
           <v-toolbar-title>Faça seu Login!</v-toolbar-title>
         </v-toolbar>
         <form class="pa-3" >
