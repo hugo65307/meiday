@@ -31,13 +31,10 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-content>
-      <router-view></router-view>
-    </v-content>
   </v-app>
   <v-app v-else>
     <v-content>
-        <Login />
+        <router-view></router-view>
     </v-content>
   </v-app>
 </div>
@@ -53,7 +50,7 @@
     },
     data () {
       return {
-        usuarioLogado: true,
+        usuarioLogado: false,
         items: [
           { title: 'Home', icon: 'dashboard' },
           { title: 'About', icon: 'question_answer' }
