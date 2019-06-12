@@ -1,16 +1,16 @@
 <template>
   <v-layout align-center justify-center row fill-height>
     <v-flex xs12 sm3 class="ma-2">
-      <v-card class="card-login pb-3" width="400" color="cinza escurecer-3">
-        <v-toolbar id="facalogin">
-          <v-toolbar-title id="escritafacaseulogin">Faça seu Login!</v-toolbar-title>
+      <v-card class="card-login" dark color="blue-grey darken-4">
+        <v-toolbar color="blue-grey darken-3">
+        <v-toolbar-title>Faça seu Login!</v-toolbar-title>
         </v-toolbar>
         <form class="pa-3" >
           <v-text-field label="E-mail" outline></v-text-field>
           <v-text-field label="Senha" outline></v-text-field>
         </form>
         <v-card-actions>
-          <v-btn id="pedro" block round>Logar</v-btn>
+          <v-btn id="pedro" color="green lighten-5" block round>logar</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
@@ -26,18 +26,18 @@
     background-position: center;
   }
 #pedro{
-  background-color:  #00C853;
-  color: black;
+  color: rgb(3, 3, 3);
   font-weight: bold;
-  font-family: arial;
-  font-size: 100%;
+  font-family: Times New Roman;
+  font-size: 150%;
 }
   #facalogin{
     background-color:  #00C853;
 
   }
-  #escritafacaseulogin{
-    color: #000000;
+  .card-login{
+    width: 400px;
+    right: 100px;
   }
 
 

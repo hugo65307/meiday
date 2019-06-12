@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Login from './views/Login.vue'
 import Cliente from './views/Cliente.vue'
 import Produtos from './views/Produtos.vue'
-
+import Inicio from './views/Inicio.vue'
 
 Vue.use(Router)
 
@@ -21,10 +21,15 @@ export default new Router({
       name: 'Cliente',
       component: Cliente
     },
-  {
-    path: '/produtos',
-    name: 'Produtos',
-    component: Produtos
-  }
+    {
+      path: '/produtos',
+      name: 'Produtos',
+      component: Produtos
+    },
+    {
+      path: '/inicio',
+      name: 'Inicio',
+      component: Inicio
+    }
   ]
 })
